@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "64e09710ce1f79b028d548950223e5f7"
+build_time: [1628329367, 445674000]
+inputs:
+  "/Users/alex/projects/mvp_flutter/macos/Classes/MvpFlutterPlugin.swift": [1628328823, 936034843]

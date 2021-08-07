@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "ca227977204aff0857a5807900b7b362"
+build_time: [1628329399, 881676000]
+inputs:
+  "/Users/alex/projects/mvp_flutter/example/macos/Runner/MainFlutterWindow.swift": [1616148140, 0]
+  "/Users/alex/projects/mvp_flutter/example/macos/Runner/AppDelegate.swift": [1616148140, 0]
+  "/Users/alex/projects/mvp_flutter/example/macos/Flutter/GeneratedPluginRegistrant.swift": [1628329356, 40483547]

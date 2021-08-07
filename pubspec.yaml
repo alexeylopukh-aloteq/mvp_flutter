@@ -1,0 +1,37 @@
+name: mvp_flutter
+description: MVP flutter
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  rxdart: ^0.27.1
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: mvp.flutter.mvp_flutter
+        pluginClass: MvpFlutterPlugin
+      ios:
+        pluginClass: MvpFlutterPlugin
+      linux:
+        pluginClass: MvpFlutterPlugin
+      macos:
+        pluginClass: MvpFlutterPlugin
+      windows:
+        pluginClass: MvpFlutterPlugin
+      web:
+        pluginClass: MvpFlutterWeb
+        fileName: mvp_flutter_web.dart

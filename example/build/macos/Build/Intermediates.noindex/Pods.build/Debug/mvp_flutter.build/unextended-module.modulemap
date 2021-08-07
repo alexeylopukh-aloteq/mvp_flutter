@@ -1,0 +1,10 @@
+framework module mvp_flutter {
+  umbrella header "mvp_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module mvp_flutter.__Swift {
+    exclude header "mvp_flutter-Swift.h"
+}
